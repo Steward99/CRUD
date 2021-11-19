@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+h1{
+    margin-bottom: 50px;
+    color: darkslategrey;
+    border-bottom: 3px solid black;
+}
+
+input{
+    height: 2rem;
+    padding-left: 10px;
+}
+
+#save{
+    background-color: greenyellow;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#forminputs{
+    margin-bottom: 40px;
+}
+
+th{
+    color: royalblue;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 1.25rem;
+    border-bottom: 1px dotted black;
+}
+
+table{
+    text-align: center;
+    border: 2px solid darkblue;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+td:nth-child(1){
+    padding: 10px 20px;
+}
+td:nth-child(2){
+    padding: 10px 20px;
+}
+td:nth-child(3){
+    padding: 10px 20px;
+}
+td:nth-child(4){
+    padding-left: 20px;
+}
+
+.edit{
+    background-color: deepskyblue;
+    color: black;
+}
+
+.delete{
+    background-color: red;
+    color: black;
+}
